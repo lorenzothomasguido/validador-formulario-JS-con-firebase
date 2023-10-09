@@ -11,7 +11,7 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-// Initialize Cloud Firestore and get a reference to the service
+// Initialize Cloud Firestore 
 const db = firebase.firestore();
 
 
@@ -74,5 +74,5 @@ document.getElementById('formulario').addEventListener('submit', (event) => {
         alert ('el formulario se envio con exito')
         document.getElementById('formulario').reset()
     }
-    
+
 })
